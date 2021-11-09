@@ -32,7 +32,7 @@ export default function Topbar() {
                         <span className="topbarIconBadge">3</span>
                     </div>
                 </div>
-                <img src="/assets/Social-App-Profile-Pic.jpeg" className="topbarImg" />
+                <img src="/assets/ProfilePic.jpeg" className="topbarImg" />
             </div> 
         </div>
     )
