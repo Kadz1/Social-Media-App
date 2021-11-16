@@ -1,4 +1,7 @@
 import "./rightbar.css"
+import { Users } from "../../User-Data"
+import Online from "../Online/Online"
+
 
 export default function RightBar() {
     return (
@@ -13,35 +16,11 @@ export default function RightBar() {
                 <img className="rightBarAd" src="/assets/KFC.jpg" alt="" />
                 <h4 className="rightbarTitle">Online Friends</h4>
                 <ul className="rightbarFrendList">
-                    <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
-                            <img className="rightbarProfileImg" src="/assets/Friend-1.jpg" alt="" />
-                            <span className="rightbarOnLine"></span>
-                        </div>
-                        <span className="rightbarUsername">lauren Hayes</span>
-                    </li>
-                    <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
-                            <img className="rightbarProfileImg" src="/assets/Friend-1.jpg" alt="" />
-                            <span className="rightbarOnLine"></span>
-                        </div>
-                        <span className="rightbarUsername">lauren Hayes</span>
-                    </li>
-                    <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
-                            <img className="rightbarProfileImg" src="/assets/Friend-1.jpg" alt="" />
-                            <span className="rightbarOnLine"></span>
-                        </div>
-                        <span className="rightbarUsername">lauren Hayes</span>
-                    </li>
-                    <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
-                            <img className="rightbarProfileImg" src="/assets/Friend-1.jpg" alt="" />
-                            <span className="rightbarOnLine"></span>
-                        </div>
-                        <span className="rightbarUsername">lauren Hayes</span>
-                    </li>
-        
+                    {Users.map(u =>(
+                        <Online key={Users.id} user={u} 
+
+                        />
+                    ))}
                 </ul>
             </div>
         </div>

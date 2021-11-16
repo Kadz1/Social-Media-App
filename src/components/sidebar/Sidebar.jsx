@@ -1,5 +1,9 @@
 import "./sidebar.css";
 import { Chat, Bookmark, Group,Event, PlayCircleFilledOutlined, RssFeed, School, WorkOutline } from "@mui/icons-material"
+import CloseFriends from "../closeFriends/CloseFriends.jsx"
+import { Users } from "../../User-Data.js"
+
+
 
 
 export default function Sidebar() {
@@ -43,22 +47,9 @@ export default function Sidebar() {
                 <button className="sidebarButton">Show More</button>
                 <hr className="sidebarHr"/>
                 <ul className="sidebarFriendList">
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/Friend2.jpeg" alt="" />
-                        <span className="sidebarFriendNmae">Harvey</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/Friend1.jpeg" alt="" />
-                        <span className="sidebarFriendNmae">Isabela</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/friend3.jpeg" alt="" />
-                        <span className="sidebarFriendNmae">Zion</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/friend4.jpeg" alt="" />
-                        <span className="sidebarFriendNmae">Cassar</span>
-                    </li>
+                    {Users.map(u =>(
+                        <CloseFriends key={Users.id} user={u} />
+                    ))}
                 </ul>
             </div>
         </div> 
