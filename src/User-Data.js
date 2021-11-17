@@ -39,6 +39,11 @@ export const Users = [
         profilePicture: "/assets/friend3.jpeg",
         username: "Zion "
     },
+    {
+        id:7,
+        profilePicture: "/assets/friend4.jpeg",
+        username: "Max "
+    },
     
 ]
 
