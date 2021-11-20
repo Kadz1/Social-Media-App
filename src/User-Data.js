@@ -12,12 +12,12 @@ export const Users = [
     {
         id:2,
         profilePicture: "/assets/User3.jpg",
-        username: "Tyson Beckford",
+        username: "Jamal Turner",
     },
     {
         id:3,
         profilePicture: "/assets/Friend-1.jpg",
-        username: "Amanda"
+        username: "Amanda Owen"
     },
     {
         id:4,
@@ -37,12 +37,12 @@ export const Users = [
     {
         id:7,
         profilePicture: "/assets/friend3.jpeg",
-        username: "Zion "
+        username: "Zion Amari"
     },
     {
-        id:7,
+        id:8,
         profilePicture: "/assets/friend4.jpeg",
-        username: "Max "
+        username: "Max Sade"
     },
     
 ]
@@ -59,7 +59,7 @@ export const Posts = [
     },
     {
         id: 1,
-        description: "skdjabsadcb",
+        description: "Life is either a daring adventure or nothing",
         photo: "/assets/postPic2.jpg",
         date: "20 mins ago",
         userId: 1,
@@ -68,7 +68,7 @@ export const Posts = [
     },
     {
         id: 2,
-        description: "skdjabsadcb",
+        description: "Always focus on the front windshield and not the review mirror.",
         photo: "/assets/postPic3.jpg",
         date: "3 hours ago",
         userId: 2,
@@ -83,5 +83,15 @@ export const Posts = [
         userId: 3,
         like: 29,
         comments: 17,
+    },
+
+    {
+        id: 4,
+        description: "skdjabsadcb",
+        photo: "/assets/postPic4.jpg",
+        date: "3 day ago",
+        userId: 3,
+        like: 42,
+        comments: 33,
     }
 ]

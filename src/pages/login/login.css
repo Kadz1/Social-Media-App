@@ -1,0 +1,138 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  font-family: inherit;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginWrapper {
+  display: flex;
+  width: 80%;
+  height: 70%;
+}
+
+.loginLeft {
+  flex: 1;
+  box-sizing: border-box;
+  margin: 20px 0;
+  padding-right: 32px;
+  width: 680px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.loginLogo {
+  font-size: 60px;
+  font-weight: 800;
+  color: #1775ee;
+  margin-bottom: 10px;
+}
+
+.loginDiscription {
+  font-size: 28px;
+}
+
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginDiscription {
+  font-size: 28px;
+}
+
+.loginRight {
+  text-align: center;
+  height: 456 px;
+  width: 396 px;
+}
+
+.loginBox {
+  width: 366px;
+  height: 300px;
+  padding: 20px 10px;
+  margin-left: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loginInput {
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  display: block;
+  color: #1c1e21;
+  appearance: none;
+  cursor: default;
+  line-height: 1.34;
+  padding-left: 10px;
+  border: initial;
+  border-radius: 6px;
+}
+
+.loginButton {
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 100%;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.loginForgot {
+  font-family: inherit;
+  color: #1877f2;
+  font-size: 16px;
+  font-weight: 520;
+  cursor: pointer;
+  text-decoration: none;
+  direction: ltr;
+  line-height: 1.34;
+}
+
+.loginCreateButton {
+  height: 50px;
+  color: #fff;
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 60%;
+  cursor: pointer;
+  align-self: center;
+}
+
+.loginCreatePage {
+  border-top: none;
+  margin: auto;
+  color: #1c1e21;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 0;
+}
+
+.loginCreatePageLink {
+  color: #1c1e21;
+  font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
