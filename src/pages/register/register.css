@@ -1,4 +1,4 @@
-.login {
+.register {
   width: 100vw;
   height: 100vh;
   font-family: inherit;
@@ -8,13 +8,13 @@
   justify-content: center;
 }
 
-.loginWrapper {
+.registerWrapper {
   display: flex;
   width: 80%;
   height: 70%;
 }
 
-.loginLeft {
+.registerLeft {
   flex: 1;
   box-sizing: border-box;
   margin: 20px 0;
@@ -24,37 +24,37 @@
   vertical-align: top;
 }
 
-.loginLogo {
+.registerLogo {
   font-size: 60px;
   font-weight: 800;
   color: #1775ee;
   margin-bottom: 20px;
 }
 
-.loginDiscription {
+.registerDiscription {
   font-size: 28px;
 }
 
-.loginRight {
+.registerRight {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.loginDiscription {
+.registerDiscription {
   font-size: 28px;
 }
 
-.loginRight {
+.registerRight {
   text-align: center;
   height: 456 px;
   width: 396 px;
 }
 
-.loginBox {
+.registerBox {
   width: 366px;
-  height: 300px;
+  height: 350px;
   padding: 20px 10px;
   margin-left: 30px;
   background-color: #fff;
@@ -62,9 +62,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-.loginInput {
+.registerInput {
   height: 50px;
   width: 100%;
   font-size: 18px;
@@ -73,12 +75,11 @@
   appearance: none;
   cursor: default;
   line-height: 1.34;
-  padding-left: 10px;
   border: initial;
   border-radius: 6px;
 }
 
-.loginButton {
+.registerButton {
   background-color: #1877f2;
   color: #fff;
   border: none;
@@ -93,20 +94,10 @@
   white-space: nowrap;
 }
 
-.loginForgot {
-  font-family: inherit;
-  color: #1877f2;
-  font-size: 16px;
-  font-weight: 520;
-  cursor: pointer;
-  text-decoration: none;
-  direction: ltr;
-  line-height: 1.34;
-}
-
-.loginCreateButton {
+.registerCreateButton {
   height: 50px;
   color: #fff;
+  margin-top: 15px;
   background-color: #42b72a;
   border: none;
   border-radius: 6px;
@@ -116,23 +107,4 @@
   width: 60%;
   cursor: pointer;
   align-self: center;
-}
-
-.loginCreatePage {
-  border-top: none;
-  margin: auto;
-  color: #1c1e21;
-  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  padding-top: 0;
-}
-
-.loginCreatePageLink {
-  color: #1c1e21;
-  font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  text-decoration: none;
 }
